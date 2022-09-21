@@ -1,0 +1,33 @@
+<mat-card class="main-form">
+  <mat-card-title>Connexion</mat-card-title>
+    <div class="form-row">
+      <mat-card-subtitle>Username</mat-card-subtitle>
+      <mat-form-field appearance="fill">
+        <mat-label><mat-icon>person</mat-icon>Nom d'utilisateur</mat-label>
+        <input type="text" matInput>
+      </mat-form-field>
+      <mat-card-subtitle>Password</mat-card-subtitle>
+      <mat-form-field appearance="fill">
+        <mat-label><mat-icon>lock</mat-icon>Mot de passe</mat-label>
+        <input type="password" matInput>
+      </mat-form-field>
+      <mat-card-subtitle ><a href="#" class="forgot">Forgot password?</a></mat-card-subtitle>
+    </div>
+    <mat-card-actions>
+      <button mat-flat-button color="primary" (click)="onSubmitForm()">Connexion</button>
+    </mat-card-actions>
+    <div class="form-row2">
+      <!-- <mat-card-subtitle>Or Sign In Using</mat-card-subtitle>
+
+      <div>
+        <a href="#">
+          <img src="assets/images/google.png" alt="google"  class="fa-google">
+        </a>
+        <a href="#">
+          <img src="assets/images/facebook.png" alt="facebook" class="fa-facebook">
+        </a>
+      </div> -->
+      <mat-card-subtitle>If you don't have an account <a routerLink="/form/login" class="signUp">Sign up</a></mat-card-subtitle>
+    </div>
+</mat-card>
+

@@ -1,0 +1,106 @@
+.main-form {
+  padding-bottom: 30px;
+  position: relative;
+  width: 70%;
+  margin: auto;
+  height: 50%;
+}
+
+mat-card-title{
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom:30px;
+}
+
+mat-card-subtitle{
+  margin-bottom: 0px;
+}
+
+mat-form-field {
+  width: 100%;
+  font-size: 1.15em;
+  &.full-width {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+}
+
+mat-card-actions {
+  text-align: center;
+  button{
+    &:hover{
+      background-color: #314c7e;
+    }
+  }
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px;
+  width: 90%
+}
+
+.form-row2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+  div{
+    margin: 20px;
+    margin-top: 0;
+  }
+}
+
+.fa-google, .fa-facebook{
+  background-color: #673AB7;
+  width: 10%;
+  margin: 20px;
+  padding: 5px;
+  border-radius: 20px;
+  &:hover{
+    background-color: #314c7e;
+  }
+}
+
+
+.fa-google{
+  margin-left: 30%
+}
+
+.form-card {
+  margin: 20px 0;
+}
+
+.forgot{
+  color: black;
+  &:hover{
+    color:#673AB7;
+    font-weight: bold;
+  }
+}
+
+.signUp{
+  color: #E5AB85;
+  font-weight: bold;
+  &:hover{
+    color:#673AB7
+  }
+}
+
+.loading {
+  position: absolute;
+  top: -10px;
+  bottom: -10px;
+  left: -10px;
+  right: -10px;
+  height: inherit;
+  z-index: 10;
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

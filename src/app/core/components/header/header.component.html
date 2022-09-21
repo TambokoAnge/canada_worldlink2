@@ -1,0 +1,11 @@
+<mat-toolbar color="primary">
+  <ul>
+    <li><span>Awesome Components</span></li>
+    <li><a routerLink="/social-media">Social Media</a></li>
+    <li><a routerLink="/reactive-state">Reactive State</a></li>
+  </ul>
+  <span class="profile"><a routerLink="/form" *ngIf="login">Sign Up</a>
+    <a routerLink="/form/register" *ngIf="login">Sign In</a>
+     <a href="#" class="account" *ngIf="user"><img src="assets/images/account_avatar.png" alt=""></a>
+    </span>
+</mat-toolbar>
